@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ — Moj Auto Dnevnik</title>
+  <meta name="description" content="Frequently asked questions about Moj Auto Dnevnik: features, vehicles, fuel, services, analytics, multi-currency, backups, privacy and troubleshooting." />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+  <meta name="theme-color" content="#0b1424" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/pages.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/icons/icon-512.png" alt="Moj Auto Dnevnik icon" />
+        <span class="brand-name">Moj Auto Dnevnik</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">Help</div>
+      <h1>Frequently Asked Questions</h1>
+      <p>Search or browse the answers below. If you can't find what you need, <a href="contact.html">get in touch</a>.</p>
+    </div>
+  </section>
+
+  <section class="doc">
+    <div class="container" style="max-width: 900px;">
+      <div class="faq-search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" id="faq-search" placeholder="Search the FAQ…" aria-label="Search the FAQ" />
+      </div>
+
+      <div class="faq-group">
+        <h2>Getting started</h2>
+        <details class="faq-item"><summary>What is Moj Auto Dnevnik?</summary><div class="faq-body"><p>Moj Auto Dnevnik ("My Car Diary") is a personal vehicle logbook for Android. It helps you record fuel, charging, services, tires, registration, insurance, and other vehicle-related expenses, and gives you analytics, reminders, and PDF reports based on your own data.</p></div></details>
+        <details class="faq-item"><summary>Which devices does the app support?</summary><div class="faq-body"><p>The app runs on Android phones and tablets on supported Android versions. It is distributed as a native Android application (built with Capacitor).</p></div></details>
+        <details class="faq-item"><summary>Do I need to create an account?</summary><div class="faq-body"><p>No. There are no user accounts, no sign-up, and no login. You can start using the app immediately after installing it.</p></div></details>
+        <details class="faq-item"><summary>How do I obtain the application?</summary><div class="faq-body"><p>The application is distributed through the Google Play Store. Please refer to the official store listing for the latest availability and release information.</p></div></details>
+        <details class="faq-item"><summary>In which languages is the app available?</summary><div class="faq-body"><p>Six languages: English, German, Serbian (Latin), Serbian (Cyrillic), Bosnian, and Croatian. You can switch language at any time in the settings.</p></div></details>
+        <details class="faq-item"><summary>Does the app work without an internet connection?</summary><div class="faq-body"><p>Yes. All core features work fully offline. An internet connection is only needed if you choose to refresh currency exchange rates from the European Central Bank.</p></div></details>
+      </div>
+
+      <div class="faq-group">
+        <h2>Vehicles</h2>
+        <details class="faq-item"><summary>Can I track more than one vehicle?</summary><div class="faq-body"><p>Yes. You can add multiple vehicles and switch between them at any time. Each vehicle keeps its own records, analytics, and reminders.</p></div></details>
+        <details class="faq-item"><summary>What information can I store about a vehicle?</summary><div class="faq-body"><p>Basic identity (name, make, model, year), fuel or energy type, primary currency, and optional details such as odometer, plate, and notes.</p></div></details>
+        <details class="faq-item"><summary>Can I set a primary currency per vehicle?</summary><div class="faq-body"><p>Yes. Each vehicle has its own primary currency. All analytics and totals for that vehicle are shown in this currency.</p></div></details>
+        <details class="faq-item"><summary>Can I delete a vehicle?</summary><div class="faq-body"><p>Yes. Deleting a vehicle also removes all records that belong to it. This action cannot be undone unless you have exported a backup beforehand.</p></div></details>
+        <details class="faq-item"><summary>Can I edit vehicle details later?</summary><div class="faq-body"><p>Yes. You can edit any vehicle field at any time. Changes do not affect the historical records already saved for that vehicle.</p></div></details>
+      </div>
+
+      <div class="faq-group">
+        <h2>Fuel &amp; charging</h2>
+        <details class="faq-item"><summary>Which fuel types are supported?</summary><div class="faq-body"><p>The app supports common types (petrol, diesel, LPG, CNG), premium variants such as G-Drive, and electric charging (kWh). You can also enter a custom fuel type via the "Other…" option.</p></div></details>
+        <details class="faq-item"><summary>How is fuel consumption calculated?</summary><div class="faq-body"><p>Consumption is calculated between refuelings using odometer readings. You do not need to enter it manually — the app derives it from your entries.</p></div></details>
+        <details class="faq-item"><summary>What information does a charging entry include?</summary><div class="faq-body"><p>Charging entries capture energy (kWh), cost, location, and the unit price. The history card shows the unit price in both the entry currency and your primary currency where applicable.</p></div></details>
+        <details class="faq-item"><summary>Can I mark a refueling as partial?</summary><div class="faq-body"><p>Yes. Full and partial fills are supported. Consumption is calculated only across full-fill segments to keep results accurate.</p></div></details>
+        <details class="faq-item"><summary>Can I record refuelings at any station?</summary><div class="faq-body"><p>Yes. Common stations are preselected in the picker, and you can freely enter any station name via the "Other…" field.</p></div></details>
+      </div>
+
+      <div class="faq-group">
+        <h2>Services</h2>
+        <details class="faq-item"><summary>Which service categories are supported?</summary><div class="faq-body"><p>Common maintenance categories (oil change, brakes, filters, timing belt, technical inspection, etc.) are preselected, and you can add a custom category via "Other" together with a required description.</p></div></details>
+        <details class="faq-item"><summary>Can I attach the mechanic or location to a service?</summary><div class="faq-body"><p>Yes. Every service entry supports a free-text location field.</p></div></details>
+        <details class="faq-item"><summary>Does the app calculate service intervals?</summary><div class="faq-body"><p>The app shows a "Service Impact" summary based on your history. It does not enforce fixed manufacturer intervals — you remain responsible for the maintenance schedule of your vehicle.</p></div></details>
+        <details class="faq-item"><summary>Can I record several services performed on the same day?</summary><div class="faq-body"><p>Yes. Each service is a separate entry, so you can record any number of services on the same date.</p></div></details>
+      </div>
+
+      <div class="faq-group">
+        <h2>Tires</h2>
+        <details class="faq-item"><summary>How are tire changes tracked?</summary><div class="faq-body"><p>Each tire entry records the service type (seasonal change, replacement, repair, other), date, odometer, cost, and location. For "Other", a description field is required.</p></div></details>
+        <details class="faq-item"><summary>Do I get reminded to change tires?</summary><div class="faq-body"><p>Yes. Tire reminders are calculated from your own history (season and last change) and appear on the dashboard when relevant.</p></div></details>
+        <details class="faq-item"><summary>Can I record only a tire repair without a seasonal change?</summary><div class="faq-body"><p>Yes. Tire repairs are a separate service type and do not affect seasonal change reminders.</p></div></details>
+      </div>
+
+      <div class="faq-group">
+        <h2>Registration &amp; insurance</h2>
+        <details class="faq-item"><summary>How does the app handle registration?</summary><div class="faq-body"><p>You enter the registration date, cost, and validity period. A reminder is generated automatically before expiry.</p></div></details>
+        <details class="faq-item"><summary>Are Mandatory and Kasko insurance tracked separately?</summary><div class="faq-body"><p>Yes. Each insurance policy is tracked as its own record, with its own expiry and reminder. Mandatory (MTPL) and Kasko reminders are independent.</p></div></details>
+        <details class="faq-item"><summary>Can I record an insurance provider that is not in the list?</summary><div class="faq-body"><p>Yes. Selecting "Other" reveals an insurance name field so you can enter any provider.</p></div></details>
+        <details class="faq-item"><summary>Are vignettes and toll-related passes supported?</summary><div class="faq-body"><p>Yes. Vignettes can be recorded with a duration (7 days, 1 month, 1 year); the expiry date is calculated automatically.</p></div></details>
+      </div>
+
+      <div class="faq-group">
+        <h2>Additional expenses</h2>
+        <details class="faq-item"><summary>What kinds of extra expenses can I record?</summary><div class="faq-body"><p>Anything that does not belong to fuel, service, tires, registration, or insurance — for example car wash, parking, tolls, accessories, fines, and other one-off costs.</p></div></details>
+        <details class="faq-item"><summary>Do additional expenses appear in analytics?</summary><div class="faq-body"><p>Yes. They contribute to the totals and category breakdowns for the selected period, using the same calculation rules as other categories.</p></div></details>
+        <details class="faq-item"><summary>Can I categorize additional expenses freely?</summary><div class="faq-body"><p>Yes. Predefined categories are provided (including Fine), and you can add your own via "Other" with a description.</p></div></details>
+      </div>
+
+      <div class="faq-group">
+        <h2>Analytics &amp; reports</h2>
+        <details class="faq-item"><summary>What time period do analytics cover?</summary><div class="faq-body"><p>The app uses a single, consistent period definition based on the last 12 calendar months. On the dashboard, if you have less than 12 months of history, the label switches to "Since your first entry ({date})" so numbers are never misleading.</p></div></details>
+        <details class="faq-item"><summary>Why are Dashboard, Analytics, and PDF numbers identical?</summary><div class="faq-body"><p>Because they all read from the same analytics engine and the same period definition. There is one source of truth for totals across the app.</p></div></details>
+        <details class="faq-item"><summary>What is included in the PDF service book?</summary><div class="faq-body"><p>A per-vehicle summary of records for the selected period (fuel, services, tires, registration, insurance, additional expenses), formatted for printing and long-term storage.</p></div></details>
+        <details class="faq-item"><summary>What is included in the annual report PDF?</summary><div class="faq-body"><p>A yearly overview: totals per category, monthly breakdowns, and highlights. Filenames and content are localized to the currently selected language.</p></div></details>
+        <details class="faq-item"><summary>Can I export data in other formats?</summary><div class="faq-body"><p>You can export the full application data as a JSON backup, calendar entries as ICS files, and reports as PDF.</p></div></details>
+      </div>
+
+      <div class="faq-group">
+        <h2>Multi-currency</h2>
+        <details class="faq-item"><summary>Which currencies can I use for expenses?</summary><div class="faq-body"><p>Any standard ISO 4217 currency. In the interface, familiar local codes (for example KM) are shown alongside the ISO code where useful.</p></div></details>
+        <details class="faq-item"><summary>How does currency conversion work?</summary><div class="faq-body"><p>Each entry stores its original amount, currency, and the exchange rate used at the time of entry. Analytics convert amounts to the vehicle's primary currency using those stored rates.</p></div></details>
+        <details class="faq-item"><summary>Where do exchange rates come from?</summary><div class="faq-body"><p>Rates use a multi-tier fallback: manual override, cached rates from the European Central Bank, and bundled static rates as a last resort. The app works even if no internet is available.</p></div></details>
+        <details class="faq-item"><summary>If I refresh rates today, will my old records change?</summary><div class="faq-body"><p>No. Historical entries keep the exchange rate that was in effect when they were saved. Refreshing rates only affects future entries.</p></div></details>
+        <details class="faq-item"><summary>Can I edit the exchange rate on an entry?</summary><div class="faq-body"><p>Yes. You can override the rate on a specific entry; only that entry is affected.</p></div></details>
+        <details class="faq-item"><summary>Does the app need internet to convert currencies?</summary><div class="faq-body"><p>No. Bundled and cached rates make conversion fully offline. An internet connection is only used if you choose to refresh ECB rates.</p></div></details>
+      </div>
+
+      <div class="faq-group">
+        <h2>Reminders</h2>
+        <details class="faq-item"><summary>What kinds of reminders does the app generate?</summary><div class="faq-body"><p>Registration, insurance (per policy), technical inspection, tire changes, and service-related reminders derived from your history.</p></div></details>
+        <details class="faq-item"><summary>Where do reminders appear?</summary><div class="faq-body"><p>On the dashboard, prioritized by urgency. You can also export upcoming events as an ICS calendar file.</p></div></details>
+        <details class="faq-item"><summary>Can I dismiss or snooze a reminder?</summary><div class="faq-body"><p>Reminders update automatically based on the underlying record. Editing or completing the related entry removes or updates the reminder.</p></div></details>
+        <details class="faq-item"><summary>Are reminders category-independent?</summary><div class="faq-body"><p>Yes. Each category calculates its own reminders independently, so a missing service does not hide an upcoming registration expiry.</p></div></details>
+      </div>
+
+      <div class="faq-group">
+        <h2>Backup &amp; restore</h2>
+        <details class="faq-item"><summary>How do I create a backup?</summary><div class="faq-body"><p>Use the export function in the settings to create a JSON backup. The file contains all your records and can be saved anywhere on the device or shared to another storage.</p></div></details>
+        <details class="faq-item"><summary>How do I restore my data?</summary><div class="faq-body"><p>Use the import function and select a previously exported JSON backup. Existing records can be replaced or merged depending on the option you choose.</p></div></details>
+        <details class="faq-item"><summary>Where should I keep backups?</summary><div class="faq-body"><p>Anywhere you trust — a cloud drive, a computer, or another device. Because a JSON backup can contain all your application data, treat it as sensitive and store it securely.</p></div></details>
+        <details class="faq-item"><summary>What happens if I change my phone?</summary><div class="faq-body"><p>Export a JSON backup on the old device, install the app on the new device, and import the backup. All records, vehicles, and settings are restored.</p></div></details>
+        <details class="faq-item"><summary>Does uninstalling the app delete my data?</summary><div class="faq-body"><p>In most cases, uninstalling the app removes locally stored data unless you have exported a backup beforehand.</p></div></details>
+      </div>
+
+      <div class="faq-group">
+        <h2>Privacy &amp; security</h2>
+        <details class="faq-item"><summary>Does the app collect my personal data?</summary><div class="faq-body"><p>No. There is no analytics, no tracking, no advertising, and no user account. Your data stays on your device.</p></div></details>
+        <details class="faq-item"><summary>Where is my data stored?</summary><div class="faq-body"><p>Only on your device, in local application storage managed by Android.</p></div></details>
+        <details class="faq-item"><summary>Does the app share my data with third parties?</summary><div class="faq-body"><p>No. The app does not transmit your records to any server or third party.</p></div></details>
+        <details class="faq-item"><summary>Why does the app request the INTERNET permission?</summary><div class="faq-body"><p>Solely to fetch the latest official European Central Bank (ECB) daily reference exchange rates when you tap "Refresh rates". No personal data is sent in this request.</p></div></details>
+        <details class="faq-item"><summary>Are my PDFs and backups generated on the device?</summary><div class="faq-body"><p>Yes. PDF reports, ICS files, and JSON backups are generated entirely on the device.</p></div></details>
+        <details class="faq-item"><summary>Is the app safe for personal financial data?</summary><div class="faq-body"><p>The app stores costs and dates locally without transmission, which is the safest architecture for this type of data. You are responsible for protecting backups you export.</p></div></details>
+      </div>
+
+      <div class="faq-group">
+        <h2>Troubleshooting</h2>
+        <details class="faq-item"><summary>The app opens with a white screen. What do I do?</summary><div class="faq-body"><p>Force-close the app and reopen it. If the issue persists, restart your device. Reinstall the app only as a last resort, and restore your backup if one is available.</p></div></details>
+        <details class="faq-item"><summary>A number is cut off on a small screen.</summary><div class="faq-body"><p>The application uses responsive KPI cards designed to adapt to different screen sizes. If a value is still clipped on your device, please report the case with a screenshot.</p></div></details>
+        <details class="faq-item"><summary>The date picker looks different than in other apps.</summary><div class="faq-body"><p>The app uses the native Android date picker, which follows your system settings and Android version. This is intentional.</p></div></details>
+        <details class="faq-item"><summary>A PDF shows unusual characters.</summary><div class="faq-body"><p>The application uses Unicode-compatible fonts for PDF generation. If a specific report still shows broken characters, please share the exact record so it can be reproduced.</p></div></details>
+        <details class="faq-item"><summary>A currency does not appear in the list.</summary><div class="faq-body"><p>The app supports any ISO 4217 code. If a code is missing, please report it and use a similar currency as a temporary workaround.</p></div></details>
+        <details class="faq-item"><summary>Analytics show a number I do not expect.</summary><div class="faq-body"><p>Open the "What's included in the selected period" panel to see exactly which records are being included, and verify the period matches your expectation.</p></div></details>
+      </div>
+
+      <div class="faq-empty">No questions match your search. Try a different keyword or <a href="contact.html">contact us</a>.</div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <img src="assets/icons/icon-512.png" alt="Moj Auto Dnevnik" />
+            <span class="brand-name">Moj Auto Dnevnik</span>
+          </a>
+          <p>A private, offline Android vehicle logbook.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-of-use.html">Terms of Use</a></li>
+            <li><a href="mailto:mojautodnevnik@gmail.com">mojautodnevnik@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>Copyright © <span data-year>2026</span> Moj Auto Dnevnik</div>
+        <div>Version 1.0</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/faq.js"></script>
+</body>
+</html>

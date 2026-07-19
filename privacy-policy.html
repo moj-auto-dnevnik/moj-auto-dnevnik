@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Moj Auto Dnevnik</title>
+  <meta name="description" content="How Moj Auto Dnevnik handles your data: fully offline, private, no accounts, no tracking. Read the full Privacy Policy." />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+  <meta name="theme-color" content="#0b1424" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/pages.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/icons/icon-512.png" alt="Moj Auto Dnevnik icon" />
+        <span class="brand-name">Moj Auto Dnevnik</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">Legal</div>
+      <h1>Privacy Policy</h1>
+      <p>How Moj Auto Dnevnik handles your data. Short version: it doesn't leave your device.</p>
+    </div>
+  </section>
+
+  <section class="doc">
+    <div class="container">
+      <article class="doc-content">
+        <div class="meta">
+          <div><strong>Application:</strong> Moj Auto Dnevnik</div>
+          <div><strong>Package:</strong> app.mojautodnevnik</div>
+          <div><strong>Public release:</strong> v1.0 (versionName 1.0.0, versionCode 13)</div>
+          <div><strong>Platform:</strong> Android (Capacitor)</div>
+          <div><strong>Document version:</strong> 1.0</div>
+          <div><strong>Last updated:</strong> July 2026</div>
+        </div>
+
+        <h2 id="s1">1. Summary</h2>
+        <p>Moj Auto Dnevnik is a fully offline personal vehicle expense tracker. It does not use accounts, does not synchronize data to any server, and does not include analytics, advertising or tracking SDKs.</p>
+        <ul>
+          <li>No sign-up, no login, no user profile.</li>
+          <li>All records — vehicles, fuel and charging entries, services, tires, registration, insurance, additional expenses, reminders, photos — are stored <strong>only on your device</strong>.</li>
+          <li>The application makes exactly <strong>one type of optional network request</strong>: fetching the Official European Central Bank (ECB) daily reference exchange rates so that entries in foreign currencies can be converted to the vehicle's primary currency. This request is anonymous, contains no personal data, and can be avoided by using the app offline.</li>
+          <li>The only Android permission the app requests is <code>INTERNET</code>, used solely for the exchange-rate refresh described above.</li>
+        </ul>
+        <p>If you never enable an internet connection while using the app, no data of any kind leaves your device.</p>
+
+        <h2 id="s2">2. Who is responsible for your data</h2>
+        <p>Because Moj Auto Dnevnik stores every record on your device, <strong>you are the sole controller of your data</strong>. The developer of the application does not receive, host, process or have any technical means to access your vehicles, expenses, photos, exports or backups.</p>
+
+        <h2 id="s3">3. What data the application stores on your device</h2>
+        <p>All of the following is stored locally in the application's own storage on your Android device. None of it is transmitted anywhere.</p>
+        <h3>3.1 Vehicle information</h3>
+        <ul>
+          <li>Name, make, model, year, engine, licence plate.</li>
+          <li>Fuel/drivetrain type, tank or battery capacity, current odometer.</li>
+          <li>Optional manufacturer recommendations (oil grade and capacity, coolant, tire pressures, recommended fuel, free-text notes).</li>
+          <li>Optional vehicle photo. Photos are automatically compressed before being written to local storage.</li>
+        </ul>
+        <h3>3.2 Expense and maintenance records</h3>
+        <ul>
+          <li>Fuel entries (station, location city and country, fuel type, litres, price, odometer, full-tank flag).</li>
+          <li>Charging entries (kWh, price per kWh, total, location).</li>
+          <li>Service entries (category, sub-category, cost, notes, optional service description for "Other").</li>
+          <li>Tire entries (season, brand, size, service type, optional service description).</li>
+          <li>Registration entries (dates, cost).</li>
+          <li>Insurance entries (insurance company, policy number, type, dates, cost) — multiple independent policies per vehicle are supported.</li>
+          <li>Additional expenses (fines, washes, tolls, parking, accessories and similar).</li>
+          <li>Free-form notes attached to any entry.</li>
+        </ul>
+        <h3>3.3 Multi-currency data</h3>
+        <p>For each money-related record the app stores the original amount, the original ISO 4217 currency, the exchange rate that was applied at the time of entry, the date of that rate, and its source (manual override, cached online rate, bundled static rate or identity). Historical rates are never rewritten by later refreshes.</p>
+        <h3>3.4 Reminders</h3>
+        <ul>
+          <li>Registration, insurance (per policy type), vignette, tire and service reminders.</li>
+          <li>Reminder dates and/or odometer thresholds.</li>
+          <li>Reminders are evaluated locally each time the app is opened; there are no push-notification servers.</li>
+        </ul>
+        <h3>3.5 Application settings</h3>
+        <ul>
+          <li>Selected language (Serbian Latin, Serbian Cyrillic, Bosnian, Croatian, English, German).</li>
+          <li>Vehicle primary currencies.</li>
+          <li>Any user-defined manual exchange-rate overrides.</li>
+        </ul>
+        <h3>3.6 Generated files</h3>
+        <ul>
+          <li>PDF exports (Service Book, Annual Report) are generated on the device.</li>
+          <li>Calendar reminder exports use the ICS (iCalendar) format and are generated on the device.</li>
+          <li>JSON backups created via Settings → Export are generated on the device.</li>
+        </ul>
+        <p>Generated files are placed only where the user or the operating system chooses to save them (for example, the standard share sheet or the device's Downloads folder). The application does not upload them anywhere.</p>
+
+        <h2 id="s4">4. What the application does not collect</h2>
+        <p>Moj Auto Dnevnik does <strong>not</strong> collect, transmit, sell or share:</p>
+        <ul>
+          <li>Personal identifiers (name, email, phone number, address, government ID, driver's licence number).</li>
+          <li>User accounts, passwords, authentication tokens or biometric data.</li>
+          <li>Precise or approximate device location (no GPS, no network-location, no Wi-Fi scanning, no cell-tower reads).</li>
+          <li>Contacts, calendars, SMS, call logs or media outside what the user explicitly attaches as a vehicle photo.</li>
+          <li>Device advertising identifiers (AAID / GAID).</li>
+          <li>Analytics, crash telemetry, product-usage events or heat-maps.</li>
+          <li>Marketing, advertising or attribution data.</li>
+          <li>Payment information. The application does not process payments.</li>
+        </ul>
+        <p>The application contains <strong>no third-party analytics, advertising, tracking, A/B testing or session-replay SDKs</strong>.</p>
+
+        <h2 id="s5">5. Network activity</h2>
+        <p>The only network activity performed by Moj Auto Dnevnik is fetching daily reference exchange rates from a public feed (the Official European Central Bank (ECB) daily reference exchange rates), used to convert amounts recorded in foreign currencies to the vehicle's primary currency.</p>
+        <p>Properties of this request:</p>
+        <ul>
+          <li><strong>Anonymous.</strong> No account, device identifier, advertising ID, IP-based fingerprint, cookie or personal data is attached by the application.</li>
+          <li><strong>Payload-free in the outbound direction.</strong> The application does not send any user record, photo, filename, log or telemetry as part of the request.</li>
+          <li><strong>Optional.</strong> Every core feature works offline. If no exchange rate is available online, the app falls back to a cached rate, then to a static rate bundled with the app.</li>
+          <li><strong>Historical safety.</strong> Refreshing exchange rates never modifies previously saved entries. The rate that was in effect when each entry was created is stored with that entry.</li>
+          <li><strong>Native transport.</strong> On Android the request goes through the platform's native HTTP client to bypass a WebView CORS limitation; this does not add any tracking.</li>
+        </ul>
+        <p>You can avoid this network activity entirely by keeping the device offline while using the application.</p>
+
+        <h2 id="s6">6. Android permissions</h2>
+        <p>The application declares a single permission in its Android manifest:</p>
+        <ul>
+          <li><code>android.permission.INTERNET</code> — required by Android to allow the optional exchange-rate refresh described in section 5.</li>
+        </ul>
+        <p>The application does <strong>not</strong> declare, request or use <code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code>, <code>READ_CONTACTS</code>, <code>READ_CALENDAR</code>, <code>READ_SMS</code>, <code>READ_CALL_LOG</code>, <code>CAMERA</code>, <code>RECORD_AUDIO</code>, <code>READ_MEDIA_IMAGES</code>, <code>READ_EXTERNAL_STORAGE</code>, <code>WRITE_EXTERNAL_STORAGE</code> or any background-location or advertising-ID permission.</p>
+        <p>Photos are attached by choosing an image through the standard Android system picker, which does not require a media or storage permission on supported Android versions.</p>
+
+        <h2 id="s7">7. Cookies, local storage and similar technologies</h2>
+        <p>The application is packaged with Capacitor and uses the Android WebView to render its UI. It stores its own state in the WebView's local storage on your device. This storage is used exclusively to persist your vehicles, records and settings between sessions.</p>
+        <p>The application does <strong>not</strong> set advertising cookies, analytics cookies or any cross-site tracking identifiers.</p>
+
+        <h2 id="s8">8. Data retention and deletion</h2>
+        <ul>
+          <li>Data remains on your device until you delete it.</li>
+          <li>Individual entries can be edited or deleted at any time from their history view.</li>
+          <li>To remove all data, uninstall the application or clear the application's storage from Android system settings.</li>
+          <li>Application updates do not delete existing data.</li>
+          <li>Because nothing is stored on a server, there is no server-side deletion request to make and no server-side copy to purge.</li>
+        </ul>
+
+        <h2 id="s9">9. Backup, export and restore</h2>
+        <ul>
+          <li><strong>Backup:</strong> Settings → Export produces a JSON file containing all vehicles and records. The file is written to a location you choose through the Android share/save flow. Exported JSON backups may contain all application data and should be stored securely by the user.</li>
+          <li><strong>Restore:</strong> Settings → Import reads a previously exported JSON file with a merge strategy of your choice (newest wins, keep local, keep incoming).</li>
+          <li><strong>PDF exports</strong> and <strong>ICS calendar files</strong> are generated locally and shared through the Android share sheet.</li>
+        </ul>
+        <p>Any file the application generates leaves the application's own storage only through an explicit user action. Once a file is saved to a cloud drive, email service or other third-party destination, that destination's own privacy policy applies to the copy stored there.</p>
+
+        <h2 id="s10">10. Children's privacy</h2>
+        <p>Moj Auto Dnevnik is intended for adult owners and drivers of motor vehicles. Because no personal information is collected or transmitted, the application does not knowingly collect any data — from children or from adults.</p>
+
+        <h2 id="s11">11. Security</h2>
+        <ul>
+          <li>All records live inside the application's private storage on your Android device and are subject to Android's application sandboxing.</li>
+          <li>The Android build disables mixed content and uses the HTTPS scheme for its WebView content.</li>
+          <li>No credentials are stored in the application because there are no accounts.</li>
+          <li>Because your data is stored on your device, its confidentiality depends primarily on the security of the device itself. We recommend using a device lock (PIN, pattern, biometrics) and keeping the operating system up to date.</li>
+        </ul>
+
+        <h2 id="s12">12. International users</h2>
+        <p>The application ships with six locales — Serbian (Latin), Serbian (Cyrillic), Bosnian, Croatian, English and German — and is primarily intended for users in the Western Balkans and the DACH region (Germany, Austria and Switzerland). Because no personal data is transmitted or stored on a server, no cross-border data transfer takes place.</p>
+
+        <h2 id="s13">13. Your rights</h2>
+        <p>Since your data never leaves your device, you can exercise the following rights directly, without contacting us:</p>
+        <ul>
+          <li><strong>Access:</strong> view every record inside the application or export a full JSON backup.</li>
+          <li><strong>Rectification:</strong> edit any entry from its history view.</li>
+          <li><strong>Erasure:</strong> delete individual entries, or clear all data by uninstalling the application or clearing its storage in Android settings.</li>
+          <li><strong>Portability:</strong> the JSON export is a machine-readable copy of everything the application stores.</li>
+          <li><strong>Objection / restriction:</strong> disable your device's internet connection to prevent even the optional exchange-rate refresh described in section 5.</li>
+        </ul>
+        <p>Where local law (for example, the EU GDPR or the Serbian Law on Personal Data Protection) grants additional rights, they apply — but in practice, because we neither collect nor process your data, most such rights are exercised directly on your device.</p>
+
+        <h2 id="s14">14. Changes to this policy</h2>
+        <p>If the application changes in a way that affects this policy (for example, adds a new optional network feature), the policy will be updated and the "Last updated" field at the top will be revised. The revised version applies to versions of the application released after that date.</p>
+
+        <h2 id="s15">15. Contact</h2>
+        <p><strong>Contact email:</strong> <a href="mailto:mojautodnevnik@gmail.com">mojautodnevnik@gmail.com</a></p>
+        <p>For questions about this Privacy Policy or the application's privacy practices, contact the developer at the email address above.</p>
+
+        <hr />
+        <p style="color: var(--text-muted); font-size: 0.9rem;">© 2026 Moj Auto Dnevnik. All rights reserved.</p>
+      </article>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <img src="assets/icons/icon-512.png" alt="Moj Auto Dnevnik" />
+            <span class="brand-name">Moj Auto Dnevnik</span>
+          </a>
+          <p>A private, offline Android vehicle logbook.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-of-use.html">Terms of Use</a></li>
+            <li><a href="mailto:mojautodnevnik@gmail.com">mojautodnevnik@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>Copyright © <span data-year>2026</span> Moj Auto Dnevnik</div>
+        <div>Version 1.0</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
