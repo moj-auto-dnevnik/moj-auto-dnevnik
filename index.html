@@ -1,216 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="sr-Latn">
+<head data-title-sr="Moj Auto Dnevnik — Sve o vašem vozilu" data-title-en="My Vehicle Logbook — Everything about your vehicle">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Moj Auto Dnevnik — Everything about your vehicle in one place</title>
-  <meta name="description" content="Moj Auto Dnevnik is a private, offline Android vehicle logbook. Track fuel, services, expenses, registration, insurance, and reminders — with analytics and PDF reports." />
+  <title>Moj Auto Dnevnik — Sve o vašem vozilu</title>
+  <meta name="description" data-description-sr="Moj Auto Dnevnik je privatna aplikacija za evidenciju vozila bez naloga i reklama. Gorivo, servisi, troškovi, rokovi i izveštaji na jednom mestu." data-description-en="Moj Auto Dnevnik is a private vehicle logbook with no account or ads. Track fuel, services, expenses, deadlines and reports in one place." content="Moj Auto Dnevnik je privatna aplikacija za evidenciju vozila bez naloga i reklama. Gorivo, servisi, troškovi, rokovi i izveštaji na jednom mestu." />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png" />
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
   <meta name="theme-color" content="#0b1424" />
   <meta property="og:title" content="Moj Auto Dnevnik" />
-  <meta property="og:description" content="Everything about your vehicle in one place — fuel, services, expenses, analytics." />
+  <meta property="og:description" content="Sve o vašem vozilu na jednom mestu. Više kontrole. Manje brige." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/images/feature-graphic.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="index.html">
-        <img src="assets/icons/icon-512.png" alt="Moj Auto Dnevnik icon" />
-        <span class="brand-name">Moj Auto Dnevnik</span>
-      </a>
-      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-      </button>
+      <a class="brand" href="index.html"><img src="assets/icons/icon-512.png" alt="Moj Auto Dnevnik" /><span class="brand-name">Moj Auto Dnevnik</span></a>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
         <li><a href="faq.html">FAQ</a></li>
-        <li><a href="support.html">Support</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="support.html" data-sr="Podrška" data-en="Support">Podrška</a></li>
+        <li><a href="contact.html" data-sr="Kontakt" data-en="Contact">Kontakt</a></li>
       </ul>
+      <div class="nav-actions">
+        <div class="language-switcher" role="group" aria-label="Izbor jezika"><button type="button" data-lang-choice="sr" aria-pressed="true">SR</button><button type="button" data-lang-choice="en" aria-pressed="false">EN</button></div>
+        <button class="nav-toggle" data-label-sr="Otvori meni" data-label-en="Open menu" aria-label="Otvori meni" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+      </div>
     </div>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero hero-full">
       <div class="container">
-        <div class="hero-grid">
-          <div class="reveal">
-            <div class="hero-brand">
-              <img src="assets/icons/icon-512.png" alt="Moj Auto Dnevnik app icon" />
-              <div class="hero-brand-text">
-                Moj Auto Dnevnik
-                <small>Android · v1.0</small>
-              </div>
-            </div>
-            <div class="hero-eyebrow">Private · Offline · Multi-currency</div>
-            <h1>Everything about your vehicle in one place</h1>
-            <p class="hero-sub">A premium, fully offline vehicle logbook for Android. Track fuel, services, tires, registration, insurance and every expense — with analytics, reminders and PDF reports. Your data stays on your device.</p>
-            <div class="hero-cta">
-              <a class="btn btn-primary" href="#features">Explore features</a>
-              <a class="btn btn-outline" href="faq.html">Read the FAQ</a>
-            </div>
-          </div>
-          <div class="hero-visual reveal">
-            <img src="assets/images/home-hero.png" alt="Moj Auto Dnevnik — everything about your vehicle in one place" />
+        <div class="hero-copy reveal">
+          <div class="hero-eyebrow" data-sr="Privatno · Bez reklama · Više valuta" data-en="Private · Ad-free · Multi-currency">Privatno · Bez reklama · Više valuta</div>
+          <h1 data-sr="MOJ AUTO DNEVNIK" data-en="MY VEHICLE LOGBOOK">MOJ AUTO DNEVNIK</h1>
+          <p class="hero-sub" data-sr="Sve o vašem vozilu na jednom mestu." data-en="Everything about your vehicle in one place.">Sve o vašem vozilu na jednom mestu.</p>
+          <p class="hero-tagline" data-sr="Više kontrole. Manje brige." data-en="More control. Less worry.">Više kontrole. Manje brige.</p>
+          <div class="vehicle-list" aria-label="Podržana vozila">
+            <span data-sr="Automobil" data-en="Car">Automobil</span><span data-sr="Motocikl" data-en="Motorcycle">Motocikl</span><span data-sr="Kamion" data-en="Truck">Kamion</span><span data-sr="Autobus" data-en="Bus">Autobus</span><span data-sr="Kombi" data-en="Van">Kombi</span><span data-sr="Traktor" data-en="Tractor">Traktor</span>
           </div>
         </div>
+        <div class="hero-poster reveal">
+          <img src="assets/images/Moj_Auto_Dnevnik_Naslovna_1024x500.png" width="1024" height="500" alt="Moj Auto Dnevnik — promo grafika sa podržanim vozilima i funkcijama" />
+        </div>
+        <div class="store-actions hero-cta-center reveal">
+          <a class="btn btn-primary store-button" href="https://play.google.com/store/apps/details?id=app.mojautodnevnik" target="_blank" rel="noopener noreferrer"><strong>Google Play</strong><small data-sr="Nova verzija 1.1 dostupna" data-en="New version 1.1 available">Nova verzija 1.1 dostupna</small></a>
+          <a class="btn btn-outline store-button" href="https://apps.apple.com/rs/app/moj-auto-dnevnik/id6808222806" target="_blank" rel="noopener noreferrer"><strong>App Store</strong><small data-sr="Verzija 1.0 dostupna · 1.1 uskoro" data-en="Version 1.0 available · 1.1 coming soon">Verzija 1.0 dostupna · 1.1 uskoro</small></a>
+        </div>
+        <p class="price-line reveal" data-sr="1,99 € · Jednokratna kupovina · Bez pretplate · Bez skrivenih troškova" data-en="€1.99 · One-time purchase · No subscription · No hidden costs">1,99 € · Jednokratna kupovina · Bez pretplate · Bez skrivenih troškova</p>
       </div>
     </section>
-
 
     <section id="features">
       <div class="container">
-        <div class="section-head reveal">
-          <div class="eyebrow">Core features</div>
-          <h2>Built for real driving life</h2>
-          <p>Four pillars, tightly integrated, sharing one source of truth for every calculation.</p>
-        </div>
+        <div class="section-head reveal"><div class="eyebrow" data-sr="Glavne funkcije" data-en="Core features">Glavne funkcije</div><h2 data-sr="Sve što vam je potrebno za evidenciju vozila" data-en="Everything you need to manage your vehicle">Sve što vam je potrebno za evidenciju vozila</h2><p data-sr="Jedna pregledna evidencija za svakodnevne troškove, održavanje i važne rokove." data-en="One clear logbook for everyday costs, maintenance and important deadlines.">Jedna pregledna evidencija za svakodnevne troškove, održavanje i važne rokove.</p></div>
         <div class="features">
-          <div class="feature-card reveal">
-            <div class="feature-icon fuel">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="22" x2="15" y2="22"/><line x1="4" y1="9" x2="14" y2="9"/><path d="M14 22V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v18"/><path d="M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2a2 2 0 0 0 2-2V9.83a2 2 0 0 0-.59-1.42L18 5"/></svg>
-            </div>
-            <h3>Fuel</h3>
-            <p>Log every refuel or charge. Consumption is calculated automatically from your odometer readings.</p>
-          </div>
-          <div class="feature-card reveal">
-            <div class="feature-icon service">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
-            </div>
-            <h3>Services</h3>
-            <p>Oil, brakes, filters, timing belt, technical inspection and more — with reminders based on your history.</p>
-          </div>
-          <div class="feature-card reveal">
-            <div class="feature-icon expenses">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12V8H6a2 2 0 0 1-2-2c0-1.1.9-2 2-2h12v4"/><path d="M4 6v12c0 1.1.9 2 2 2h14v-4"/><path d="M18 12a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4v-4h-4z"/></svg>
-            </div>
-            <h3>Expenses</h3>
-            <p>Registration, insurance, vignettes, fines, tolls and parking — all consolidated in your primary currency.</p>
-          </div>
-          <div class="feature-card reveal">
-            <div class="feature-icon analytics">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="4" width="3" height="14"/></svg>
-            </div>
-            <h3>Analytics</h3>
-            <p>KPIs, monthly stacked bars, donut breakdown and yearly reports — always consistent with your data.</p>
-          </div>
+          <div class="feature-card reveal"><div class="feature-icon fuel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 22V4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v18M3 22h13M4 9h10M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 4 0V9"/></svg></div><h3 data-sr="Gorivo i potrošnja" data-en="Fuel and consumption">Gorivo i potrošnja</h3><p data-sr="Evidentirajte točenje ili punjenje i pratite prosečnu potrošnju." data-en="Log every refuel or charge and track average consumption.">Evidentirajte točenje ili punjenje i pratite prosečnu potrošnju.</p></div>
+          <div class="feature-card reveal"><div class="feature-icon service"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-8 8l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 8-8z"/></svg></div><h3 data-sr="Servisi i održavanje" data-en="Services and maintenance">Servisi i održavanje</h3><p data-sr="Vodite istoriju servisa, guma i traktorskih servisa po radnim satima." data-en="Keep service and tire history, including tractor maintenance by operating hours.">Vodite istoriju servisa, guma i traktorskih servisa po radnim satima.</p></div>
+          <div class="feature-card reveal"><div class="feature-icon expenses"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 12V8H6a2 2 0 1 1 0-4h12v4M4 6v12a2 2 0 0 0 2 2h14v-4M18 12h4v4h-4a2 2 0 1 1 0-4z"/></svg></div><h3 data-sr="Troškovi i rokovi" data-en="Expenses and deadlines">Troškovi i rokovi</h3><p data-sr="Registracija, osiguranje, dodatni troškovi i podsetnici za važne rokove." data-en="Registration, insurance, additional costs and reminders for important deadlines.">Registracija, osiguranje, dodatni troškovi i podsetnici za važne rokove.</p></div>
+          <div class="feature-card reveal"><div class="feature-icon analytics"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18M7 12v6M12 8v10M17 4v14"/></svg></div><h3 data-sr="Statistika i izvoz" data-en="Analytics and export">Statistika i izvoz</h3><p data-sr="Analiza troškova, više valuta i PDF ili JSON izvoz podataka." data-en="Cost analytics, multiple currencies, and PDF or JSON data export.">Analiza troškova, više valuta i PDF ili JSON izvoz podataka.</p></div>
         </div>
       </div>
     </section>
 
-    <section class="benefits-bg">
-      <div class="container">
-        <div class="section-head reveal">
-          <div class="eyebrow">Why Moj Auto Dnevnik</div>
-          <h2>Built around your privacy</h2>
-          <p>No accounts, no cloud, no ads. What you record stays on your device.</p>
-        </div>
-        <div class="benefits">
-          <div class="benefit reveal">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            <div><h4>Private by design</h4><p>All data lives locally on your device. No sign-up, no server, no analytics or tracking SDKs.</p></div>
-          </div>
-          <div class="benefit reveal">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
-            <div><h4>Works fully offline</h4><p>Every core feature works with no internet — reminders, analytics and PDF export included.</p></div>
-          </div>
-          <div class="benefit reveal">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8"/><line x1="12" y1="6" x2="12" y2="8"/><line x1="12" y1="16" x2="12" y2="18"/></svg>
-            <div><h4>Multi-currency</h4><p>Any ISO 4217 currency, converted to your vehicle's primary currency with the rate stored per entry.</p></div>
-          </div>
-          <div class="benefit reveal">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-            <div><h4>Smart reminders</h4><p>Registration, insurance, vignettes, tire changes and services — calculated from your own history.</p></div>
-          </div>
-          <div class="benefit reveal">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
-            <div><h4>PDF & JSON export</h4><p>Generate a Service Book, an Annual Report, or a full JSON backup — all produced on your device.</p></div>
-          </div>
-          <div class="benefit reveal">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10a15.3 15.3 0 0 1-4 10a15.3 15.3 0 0 1-4-10a15.3 15.3 0 0 1 4-10z"/></svg>
-            <div><h4>Six languages</h4><p>English, German, Serbian (Latin & Cyrillic), Bosnian, and Croatian — switch anytime.</p></div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="benefits-bg"><div class="container"><div class="section-head reveal"><div class="eyebrow" data-sr="Privatnost" data-en="Privacy">Privatnost</div><h2 data-sr="Vaši podaci ostaju vaši" data-en="Your data stays yours">Vaši podaci ostaju vaši</h2><p data-sr="Bez naloga, bez clouda i bez reklama." data-en="No account, no cloud and no ads.">Bez naloga, bez clouda i bez reklama.</p></div><div class="benefits">
+      <div class="benefit reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><div><h4 data-sr="Bez naloga" data-en="No account">Bez naloga</h4><p data-sr="Nema registracije, prijave niti korisničkog profila." data-en="No registration, sign-in or user profile.">Nema registracije, prijave niti korisničkog profila.</p></div></div>
+      <div class="benefit reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.5a11 11 0 0 1 14 0M1.4 9a16 16 0 0 1 21.2 0M8.5 16.1a6 6 0 0 1 7 0M12 20h.01"/></svg><div><h4 data-sr="Rad bez interneta" data-en="Works offline">Rad bez interneta</h4><p data-sr="Sve osnovne funkcije rade i kada niste povezani." data-en="All core features work without an internet connection.">Sve osnovne funkcije rade i kada niste povezani.</p></div></div>
+      <div class="benefit reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4zM8 8h8M8 12h8M8 16h5"/></svg><div><h4 data-sr="Podaci na uređaju" data-en="Data on your device">Podaci na uređaju</h4><p data-sr="Evidencija se čuva lokalno, bez sinhronizacije sa cloudom." data-en="Your records stay local, with no cloud synchronization.">Evidencija se čuva lokalno, bez sinhronizacije sa cloudom.</p></div></div>
+      <div class="benefit reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 8l8 8M16 8l-8 8"/></svg><div><h4 data-sr="Bez reklama" data-en="Ad-free">Bez reklama</h4><p data-sr="Bez praćenja, oglašavanja i skrivenih troškova." data-en="No tracking, advertising or hidden costs.">Bez praćenja, oglašavanja i skrivenih troškova.</p></div></div>
+      <div class="benefit reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6"/></svg><div><h4 data-sr="PDF i JSON izvoz" data-en="PDF and JSON export">PDF i JSON izvoz</h4><p data-sr="Izveštaji i rezervna kopija nastaju direktno na uređaju." data-en="Reports and backups are created directly on your device.">Izveštaji i rezervna kopija nastaju direktno na uređaju.</p></div></div>
+      <div class="benefit reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8"/></svg><div><h4 data-sr="Više valuta" data-en="Multiple currencies">Više valuta</h4><p data-sr="RSD, EUR, BAM, USD i AUD uz sačuvane kurseve po unosu." data-en="RSD, EUR, BAM, USD and AUD with rates stored per entry.">RSD, EUR, BAM, USD i AUD uz sačuvane kurseve po unosu.</p></div></div>
+    </div></div></section>
 
-    <section>
-      <div class="container">
-        <div class="section-head reveal">
-          <div class="eyebrow">How it works</div>
-          <h2>Set up in minutes</h2>
-        </div>
-        <div class="steps">
-          <div class="step reveal">
-            <div class="step-num">1</div>
-            <h3>Add your vehicle</h3>
-            <p>Name, make, model, engine type and primary currency. Petrol, diesel, LPG, CNG, hybrid or electric — all supported.</p>
-          </div>
-          <div class="step reveal">
-            <div class="step-num">2</div>
-            <h3>Log entries</h3>
-            <p>Refuels, services, tires, registration, insurance, vignettes, and any other expense. Everything is optional.</p>
-          </div>
-          <div class="step reveal">
-            <div class="step-num">3</div>
-            <h3>See the picture</h3>
-            <p>Dashboard KPIs, analytics and reminders update automatically. Export a Service Book or Annual Report as PDF.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section><div class="container"><div class="section-head reveal"><div class="eyebrow" data-sr="Jednostavno korišćenje" data-en="Simple to use">Jednostavno korišćenje</div><h2 data-sr="Pokrenite evidenciju za nekoliko minuta" data-en="Start your logbook in minutes">Pokrenite evidenciju za nekoliko minuta</h2></div><div class="steps">
+      <div class="step reveal"><div class="step-num">1</div><h3 data-sr="Dodajte vozilo" data-en="Add your vehicle">Dodajte vozilo</h3><p data-sr="Izaberite tip vozila, gorivo i glavnu valutu." data-en="Choose the vehicle type, fuel and primary currency.">Izaberite tip vozila, gorivo i glavnu valutu.</p></div>
+      <div class="step reveal"><div class="step-num">2</div><h3 data-sr="Unosite podatke" data-en="Log entries">Unosite podatke</h3><p data-sr="Gorivo, servisi, gume, troškovi i rokovi — samo ono što vam treba." data-en="Fuel, services, tires, expenses and deadlines — only what you need.">Gorivo, servisi, gume, troškovi i rokovi — samo ono što vam treba.</p></div>
+      <div class="step reveal"><div class="step-num">3</div><h3 data-sr="Pratite pregled" data-en="See the full picture">Pratite pregled</h3><p data-sr="Statistika i podsetnici se automatski ažuriraju iz vaših unosa." data-en="Analytics and reminders update automatically from your entries.">Statistika i podsetnici se automatski ažuriraju iz vaših unosa.</p></div>
+    </div></div></section>
 
-    <section>
-      <div class="container">
-        <div class="cta-band reveal">
-          <h2>Ready to keep every vehicle detail in one place?</h2>
-          <p>Install Moj Auto Dnevnik and start with your first refuel entry — your data will stay entirely on your device.</p>
-          <a class="btn btn-primary" href="faq.html">Learn more</a>
-        </div>
-      </div>
-    </section>
+    <section><div class="container"><div class="cta-band reveal"><h2 data-sr="Sve o vašem vozilu na jednom mestu." data-en="Everything about your vehicle in one place.">Sve o vašem vozilu na jednom mestu.</h2><p data-sr="Preuzmite Moj Auto Dnevnik za Android ili iPhone. Više kontrole. Manje brige." data-en="Get Moj Auto Dnevnik for Android or iPhone. More control. Less worry.">Preuzmite Moj Auto Dnevnik za Android ili iPhone. Više kontrole. Manje brige.</p><div class="store-actions" style="justify-content:center"><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=app.mojautodnevnik" target="_blank" rel="noopener noreferrer">Google Play</a><a class="btn btn-outline" href="https://apps.apple.com/rs/app/moj-auto-dnevnik/id6808222806" target="_blank" rel="noopener noreferrer">App Store</a></div></div></div></section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a class="brand" href="index.html">
-            <img src="assets/icons/icon-512.png" alt="Moj Auto Dnevnik" />
-            <span class="brand-name">Moj Auto Dnevnik</span>
-          </a>
-          <p>A private, offline Android vehicle logbook. Fuel, services, expenses and analytics — in one place.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Product</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="support.html">Support</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Legal</h4>
-          <ul>
-            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-            <li><a href="terms-of-use.html">Terms of Use</a></li>
-            <li><a href="mailto:mojautodnevnik@gmail.com">mojautodnevnik@gmail.com</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div>Copyright © <span data-year>2026</span> Moj Auto Dnevnik</div>
-        <div>Version 1.0</div>
-      </div>
-    </div>
-  </footer>
-
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a class="brand" href="index.html"><img src="assets/icons/icon-512.png" alt="Moj Auto Dnevnik" /><span class="brand-name">Moj Auto Dnevnik</span></a><p data-sr="Privatna evidencija vozila za Android i iPhone. Gorivo, servisi, troškovi i statistika na jednom mestu." data-en="A private vehicle logbook for Android and iPhone. Fuel, services, expenses and analytics in one place.">Privatna evidencija vozila za Android i iPhone. Gorivo, servisi, troškovi i statistika na jednom mestu.</p></div><div class="footer-col"><h4 data-sr="Proizvod" data-en="Product">Proizvod</h4><ul><li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li><li><a href="faq.html">FAQ</a></li><li><a href="support.html" data-sr="Podrška" data-en="Support">Podrška</a></li><li><a href="contact.html" data-sr="Kontakt" data-en="Contact">Kontakt</a></li></ul></div><div class="footer-col"><h4 data-sr="Pravno" data-en="Legal">Pravno</h4><ul><li><a href="privacy-policy.html" data-sr="Politika privatnosti" data-en="Privacy Policy">Politika privatnosti</a></li><li><a href="terms-of-use.html" data-sr="Uslovi korišćenja" data-en="Terms of Use">Uslovi korišćenja</a></li><li><a href="mailto:mojautodnevnik@gmail.com">mojautodnevnik@gmail.com</a></li></ul></div></div><div class="footer-bottom"><div>Copyright © <span data-year>2026</span> Moj Auto Dnevnik</div><div data-sr="Android 1.1 · iOS 1.0" data-en="Android 1.1 · iOS 1.0">Android 1.1 · iOS 1.0</div></div></div></footer>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
