@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/index.html</loc>
+    <loc>https://moj-auto-dnevnik.github.io/moj-auto-dnevnik/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>/faq.html</loc>
+    <loc>https://moj-auto-dnevnik.github.io/moj-auto-dnevnik/faq.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>/support.html</loc>
+    <loc>https://moj-auto-dnevnik.github.io/moj-auto-dnevnik/support.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>/contact.html</loc>
+    <loc>https://moj-auto-dnevnik.github.io/moj-auto-dnevnik/contact.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>/privacy-policy.html</loc>
+    <loc>https://moj-auto-dnevnik.github.io/moj-auto-dnevnik/privacy-policy.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/terms-of-use.html</loc>
+    <loc>https://moj-auto-dnevnik.github.io/moj-auto-dnevnik/terms-of-use.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
