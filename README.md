@@ -96,3 +96,13 @@ website/
 Website source code is released under the MIT License (see `LICENSE`).
 The Moj Auto Dnevnik name, icon, and promotional graphic are trademarks/assets
 of the application publisher and are used here for the official application website.
+
+## Pred objavu — zamena privremene adrese
+
+Sve SEO adrese (og:image, canonical, hreflang, sitemap.xml, robots.txt) koriste privremenu adresu `https://moj-auto-dnevnik.github.io/moj-auto-dnevnik`. Kad prava adresa bude poznata, zameni je jednom komandom iz foldera sajta:
+
+```bash
+grep -rl "mojautodnevnik.rs" . --include="*.html" --include="*.xml" --include="*.txt" | xargs sed -i "s|https://moj-auto-dnevnik.github.io/moj-auto-dnevnik|https://PRAVA-ADRESA|g"
+```
+
+Slika za deljenje linka: `assets/og-share.jpg` (1200×630).

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: /sitemap.xml
+Sitemap: https://moj-auto-dnevnik.github.io/moj-auto-dnevnik/sitemap.xml
