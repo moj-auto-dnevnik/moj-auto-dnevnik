@@ -52,7 +52,7 @@
 @media(max-width:1000px){.v12 .vehicle-strip div{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.v12{padding:68px 0}.v12-grid{gap:14px}.v12-item figcaption{font-size:.62rem;padding:9px 10px}.v12-lead{margin-top:0;margin-bottom:26px}.v12 .vehicle-strip{gap:14px;padding:22px 0}.v12 .vehicle-strip span{min-height:46px;font-size:.68rem}}
 
-/* App Store: verzija 1.2 uskoro */
+/* App Store */
 .store-item{display:grid;gap:7px;justify-items:start}
 .store-note{display:inline-flex;align-items:center;gap:6px;color:var(--muted);font-size:.64rem;font-weight:600;letter-spacing:.02em}
 .store-note::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--gold);flex:none}
