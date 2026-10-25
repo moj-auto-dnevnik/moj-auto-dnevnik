@@ -54,8 +54,6 @@
 
 /* App Store */
 .store-item{display:grid;gap:7px;justify-items:start}
-.store-note{display:inline-flex;align-items:center;gap:6px;color:var(--muted);font-size:.64rem;font-weight:600;letter-spacing:.02em}
-.store-note::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--gold);flex:none}
 .store-mark.apple{color:var(--paper)}.hero-art{overflow:visible}.hero-art>img{border-radius:8px}.hero-phone{position:absolute;right:3%;bottom:-30px;z-index:2;width:min(31%,230px);border:6px solid #111820;border-radius:28px;overflow:hidden;background:#111820;box-shadow:0 28px 58px rgba(0,0,0,.68),0 0 0 1px color-mix(in srgb,var(--gold) 64%,transparent)}.hero-phone img{width:100%;height:auto;aspect-ratio:auto;filter:contrast(1.08) saturate(1.06)}
 .price{position:relative;padding:34px 20px;border:1px solid color-mix(in srgb,var(--gold) 55%,var(--line));border-radius:12px;background:linear-gradient(160deg,var(--panel-2),var(--panel));box-shadow:var(--shadow),inset 0 1px 0 color-mix(in srgb,var(--gold) 25%,transparent)}.price strong{color:var(--gold-soft)}.price::before{content:"";position:absolute;top:0;left:20%;right:20%;height:2px;background:var(--gold)}
 @media(max-width:700px){.hero-phone{right:3%;width:36%;bottom:-18px;border-width:4px;border-radius:20px}}
