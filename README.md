@@ -1,6 +1,6 @@
 # Moj Auto Dnevnik — Official Website
 
-A fully static, self-contained website for the Android application **Moj Auto Dnevnik**.
+A fully static, self-contained website for the Android and iOS application **Moj Auto Dnevnik**.
 
 - Pure HTML5, CSS3, and vanilla JavaScript.
 - No build step, no framework, no backend, no database.
@@ -102,7 +102,7 @@ of the application publisher and are used here for the official application webs
 Sve SEO adrese (og:image, canonical, hreflang, sitemap.xml, robots.txt) koriste privremenu adresu `https://moj-auto-dnevnik.github.io/moj-auto-dnevnik`. Kad prava adresa bude poznata, zameni je jednom komandom iz foldera sajta:
 
 ```bash
-grep -rl "mojautodnevnik.rs" . --include="*.html" --include="*.xml" --include="*.txt" | xargs sed -i "s|https://moj-auto-dnevnik.github.io/moj-auto-dnevnik|https://PRAVA-ADRESA|g"
+grep -rl "moj-auto-dnevnik.github.io/moj-auto-dnevnik" . --include="*.html" --include="*.xml" --include="*.txt" | xargs sed -i "s|https://moj-auto-dnevnik.github.io/moj-auto-dnevnik|https://PRAVA-ADRESA|g"
 ```
 
 Slika za deljenje linka: `assets/og-share.jpg` (1200×630).
