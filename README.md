@@ -106,3 +106,8 @@ grep -rl "moj-auto-dnevnik.github.io/moj-auto-dnevnik" . --include="*.html" --in
 ```
 
 Slika za deljenje linka: `assets/og-share.jpg` (1200×630).
+
+
+## Website update — November 5, 2026
+
+Google Play and App Store labels: 1.3.1. Updated release news and Wi-Fi transfer information in Serbian Latin, English and German. App supports five languages, with Serbian in both scripts. Original screenshots, styles, scripts, pricing and store URLs are unchanged. Store approval and physical-device sync were not independently verified by this website update.
