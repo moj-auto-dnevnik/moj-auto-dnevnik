@@ -111,3 +111,8 @@ Slika za deljenje linka: `assets/og-share.jpg` (1200×630).
 ## Website update — November 5, 2026
 
 Google Play and App Store labels: 1.3.1. Updated release news and Wi-Fi transfer information in Serbian Latin, English and German. App supports five languages, with Serbian in both scripts. Original screenshots, styles, scripts, pricing and store URLs are unchanged. Store approval and physical-device sync were not independently verified by this website update.
+
+
+## Privacy review — November 17, 2026
+
+Public release labels remain 1.3.1 and the requested policy date remains November 5, 2026. Privacy and Wi-Fi FAQ text now distinguishes automatic synchronization after user-approved pairing, unencrypted LAN content, password-encrypted backups, optional system speech processing and system-managed copies. Styles, scripts, media, homepage, support and terms are unchanged. See `PROVERA-SAJTA-1.3.1.md` for evidence, checks and limitations. No store compliance approval or physical-device test is implied.
