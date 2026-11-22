@@ -108,11 +108,16 @@ grep -rl "moj-auto-dnevnik.github.io/moj-auto-dnevnik" . --include="*.html" --in
 Slika za deljenje linka: `assets/og-share.jpg` (1200×630).
 
 
-## Website update — November 5, 2026
+## Website update — November 22, 2026
 
 Google Play and App Store labels: 1.3.1. Updated release news and Wi-Fi transfer information in Serbian Latin, English and German. App supports five languages, with Serbian in both scripts. Original screenshots, styles, scripts, pricing and store URLs are unchanged. Store approval and physical-device sync were not independently verified by this website update.
 
 
-## Privacy review — November 17, 2026
+## Privacy review — November 22, 2026
 
-Public release labels remain 1.3.1 and the requested policy date remains November 5, 2026. Privacy and Wi-Fi FAQ text now distinguishes automatic synchronization after user-approved pairing, unencrypted LAN content, password-encrypted backups, optional system speech processing and system-managed copies. Styles, scripts, media, homepage, support and terms are unchanged. See `PROVERA-SAJTA-1.3.1.md` for evidence, checks and limitations. No store compliance approval or physical-device test is implied.
+Public release labels remain 1.3.1 and the requested policy date remains November 5, 2026. Privacy and Wi-Fi FAQ text now distinguishes automatic synchronization after user-approved pairing, unencrypted LAN content, password-encrypted backups, optional system speech processing and system-managed copies. Styles, scripts, media, homepage, support and terms are unchanged. No store compliance approval or physical-device test is implied.
+
+## Update — November 22, 2026
+
+Google Play label and footer: Android 1.4; App Store stays iOS 1.3.1. Added Version 1.4 news (Google Play), language-specific gallery (English and German store images; Serbian keeps the original screenshots), publisher details (Miladinka Kitić, trader – natural person, address, email, phone) on Contact, Privacy and Terms, and 1.4 data/permissions/exports wording in Privacy and Terms. Legal pages dated November 22, 2026. No physical-device or store-approval check is implied.
+Homepage hero and app-screen showcase switch to the English/German store images per language (Serbian unchanged).
